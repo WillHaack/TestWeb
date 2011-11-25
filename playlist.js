@@ -8,7 +8,7 @@ function handleButtonClick() {
     var songName = textInput.value;
     var li = document.createElement("li");
     li.innerHTML = songName;
-    var ul = Document.getElementById("playlist");
+    var ul = document.getElementById("playlist");
     ul.appendChild(li);
 }
 
